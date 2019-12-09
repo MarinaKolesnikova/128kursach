@@ -50,6 +50,7 @@ namespace GoodVision
 				User.Nick = reader.ReadToEnd();
 				session.Close();
 			}
+
 		}
     }
 }
