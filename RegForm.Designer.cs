@@ -89,7 +89,7 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
             this.label2.Location = new System.Drawing.Point(23, 55);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(299, 45);
+            this.label2.Size = new System.Drawing.Size(290, 45);
             this.label2.TabIndex = 2;
             this.label2.Text = "введiть своє ім\'я";
             // 
@@ -119,7 +119,6 @@
             this.RegistTextBox.Size = new System.Drawing.Size(668, 36);
             this.RegistTextBox.TabIndex = 0;
             this.RegistTextBox.TextChanged += new System.EventHandler(this.RegistTextBox_TextChanged);
-            this.RegistTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.RegistTextBox_KeyPress);
             // 
             // RegPanel
             // 
@@ -151,7 +150,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "RegForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Регістрація";
             this.WellcomePanel.ResumeLayout(false);
             this.WellcomePanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

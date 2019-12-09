@@ -33,11 +33,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.StatisticLabel = new System.Windows.Forms.Label();
             this.StatisticTable = new System.Windows.Forms.DataGridView();
+            this.BackToMenuButton = new rbutton.CustRoundButton();
             this.UserName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Date = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.LeftEyeAcuity = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.RightEyeAcuity = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BackToMenuButton = new rbutton.CustRoundButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.StatisticTable)).BeginInit();
             this.SuspendLayout();
@@ -90,6 +90,19 @@
             this.StatisticTable.TabIndex = 1;
             this.StatisticTable.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.StatisticTable_CellContentClick);
             // 
+            // BackToMenuButton
+            // 
+            this.BackToMenuButton.BackColor = System.Drawing.Color.Transparent;
+            this.BackToMenuButton.Image = global::GoodVision.Properties.Resources._14;
+            this.BackToMenuButton.ImageHover = global::GoodVision.Properties.Resources._14Hover;
+            this.BackToMenuButton.ImageNormal = global::GoodVision.Properties.Resources._14;
+            this.BackToMenuButton.Location = new System.Drawing.Point(12, 432);
+            this.BackToMenuButton.Name = "BackToMenuButton";
+            this.BackToMenuButton.Size = new System.Drawing.Size(192, 152);
+            this.BackToMenuButton.TabIndex = 2;
+            this.BackToMenuButton.UseVisualStyleBackColor = false;
+            this.BackToMenuButton.Click += new System.EventHandler(this.BackToMenuButton_Click);
+            // 
             // UserName
             // 
             this.UserName.HeaderText = "Ім\'я користувача";
@@ -110,19 +123,6 @@
             this.RightEyeAcuity.HeaderText = "Острота правого ока";
             this.RightEyeAcuity.Name = "RightEyeAcuity";
             // 
-            // BackToMenuButton
-            // 
-            this.BackToMenuButton.BackColor = System.Drawing.Color.Transparent;
-            this.BackToMenuButton.Image = global::GoodVision.Properties.Resources._14;
-            this.BackToMenuButton.ImageHover = global::GoodVision.Properties.Resources._14Hover;
-            this.BackToMenuButton.ImageNormal = global::GoodVision.Properties.Resources._14;
-            this.BackToMenuButton.Location = new System.Drawing.Point(12, 432);
-            this.BackToMenuButton.Name = "BackToMenuButton";
-            this.BackToMenuButton.Size = new System.Drawing.Size(192, 152);
-            this.BackToMenuButton.TabIndex = 2;
-            this.BackToMenuButton.UseVisualStyleBackColor = false;
-            this.BackToMenuButton.Click += new System.EventHandler(this.BackToMenuButton_Click);
-            // 
             // StatisticForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
@@ -134,7 +134,7 @@
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
             this.Name = "StatisticForm";
-            this.Text = " Статистика";
+            this.Text = " ";
             this.Load += new System.EventHandler(this.StatisticForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

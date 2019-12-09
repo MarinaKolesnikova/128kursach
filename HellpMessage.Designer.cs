@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.HelpGreetingLabel = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.custRoundButton1 = new rbutton.CustRoundButton();
             this.PictureHelp2 = new ButtonRoundedCorners.RoundedCorners();
             this.PictureHelp1 = new ButtonRoundedCorners.RoundedCorners();
@@ -60,19 +60,6 @@
             this.panel1.Size = new System.Drawing.Size(597, 119);
             this.panel1.TabIndex = 1;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Эвристика", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(14, 20);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(578, 78);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Цей застосунок створено для надання приблизної \r\nінформації про стан гостроти зор" +
-    "у. Для достовірного\r\n диагнозу зверніться до лікаря";
-            // 
             // HelpGreetingLabel
             // 
             this.HelpGreetingLabel.AutoSize = true;
@@ -99,6 +86,19 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(621, 659);
             this.panel2.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Эвристика", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.Location = new System.Drawing.Point(14, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(578, 78);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Цей застосунок створено для надання приблизної \r\nінформації про стан гостроти зор" +
+    "у. Для достовірного\r\n диагнозу зверніться до лікаря";
             // 
             // custRoundButton1
             // 
@@ -230,7 +230,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "HellpMessage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Допомога";
+            this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

@@ -46,7 +46,7 @@ namespace GoodVision
 
         private void BackToVisionCheckButton_Click(object sender, EventArgs e)// возврат на предыдущую страницу
         {
-            MainMenu Vch = new MainMenu();
+            VisionCheck Vch = new VisionCheck();
             Vch.Show();
             this.Hide();
         }

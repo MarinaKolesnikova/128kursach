@@ -409,14 +409,13 @@
     <None Include="Resources\статист1.png" />
   </ItemGroup>
   <ItemGroup>
+
     <None Include="Resources\Circle.png.bmp" />
     <None Include="Resources\ИнвСтарт.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\кольцо.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\backArrow.png" />
+
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

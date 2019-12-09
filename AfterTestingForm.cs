@@ -52,14 +52,5 @@ namespace GoodVision
 			}
 
 		}
-
-        private void BackToMenuButton_Click_1(object sender, EventArgs e)
-        {
-            MainMenu main = new MainMenu();
-    
-            main.Show();
-            this.Close();
-
-        }
     }
 }

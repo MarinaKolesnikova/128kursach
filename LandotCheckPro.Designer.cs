@@ -193,7 +193,7 @@
             this.EyeTestPanel.Controls.Add(this.EyeTextLabel);
             this.EyeTestPanel.Font = new System.Drawing.Font("a_AvanteInt", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.EyeTestPanel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.EyeTestPanel.Location = new System.Drawing.Point(426, 6);
+            this.EyeTestPanel.Location = new System.Drawing.Point(432, 12);
             this.EyeTestPanel.Name = "EyeTestPanel";
             this.EyeTestPanel.Size = new System.Drawing.Size(694, 574);
             this.EyeTestPanel.TabIndex = 7;
@@ -204,7 +204,7 @@
             this.EyeTextLabel.Font = new System.Drawing.Font("a_AvanteInt", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.EyeTextLabel.Location = new System.Drawing.Point(12, 187);
             this.EyeTextLabel.Name = "EyeTextLabel";
-            this.EyeTextLabel.Size = new System.Drawing.Size(851, 162);
+            this.EyeTextLabel.Size = new System.Drawing.Size(417, 44);
             this.EyeTextLabel.TabIndex = 0;
             this.EyeTextLabel.Text = "Тестуємо ліве око. \r\nБудь ласка, закрийте праве та нажміть\r\n \"старт\".\r\n";
             // 
@@ -230,9 +230,9 @@
             this.GoLandotButton.Image = global::GoodVision.Properties.Resources.ИнвСтарт;
             this.GoLandotButton.ImageHover = global::GoodVision.Properties.Resources.ИнвСтарт;
             this.GoLandotButton.ImageNormal = global::GoodVision.Properties.Resources.ИнвСтарт;
-            this.GoLandotButton.Location = new System.Drawing.Point(221, 374);
+            this.GoLandotButton.Location = new System.Drawing.Point(227, 384);
             this.GoLandotButton.Name = "GoLandotButton";
-            this.GoLandotButton.Size = new System.Drawing.Size(199, 194);
+            this.GoLandotButton.Size = new System.Drawing.Size(199, 199);
             this.GoLandotButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.GoLandotButton.TabIndex = 5;
             this.GoLandotButton.TabStop = false;
@@ -252,7 +252,7 @@
             this.DoubleBuffered = true;
             this.Name = "LandotCheckPro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Перевірка кільцями Ландольта";
+            this.Text = "Form1";
             this.Load += new System.EventHandler(this.LandotCheckPro_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.UpLandotButton)).EndInit();

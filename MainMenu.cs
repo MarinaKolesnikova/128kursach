@@ -21,9 +21,9 @@ namespace GoodVision
         }
 		UserClass User=new UserClass() ;
 		GoodVisionClass MyVision;
-        HellpMessage help = new HellpMessage();
+		
 
-        private void StaticticButton_Click(object sender, EventArgs e)  // просмотр статистики
+		private void StaticticButton_Click(object sender, EventArgs e)  // просмотр статистики
         {
             StatisticForm statForm = new StatisticForm();
             statForm.Show();
@@ -42,7 +42,7 @@ namespace GoodVision
         // вызываем помощь для главного меню
         private void HelpButton_Click(object sender, EventArgs e) 
         {
-            help.Hide();
+            HellpMessage help = new HellpMessage();
             help.Show();
         }
 
