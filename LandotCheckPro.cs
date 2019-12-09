@@ -18,7 +18,7 @@ namespace GoodVision
         {
             InitializeComponent();
         }
-        int i = 5, temp;
+        int i = 6, temp;
 		bool eye = true;
 		Landolt_Circle Circle = new Landolt_Circle();
 		int Direction;

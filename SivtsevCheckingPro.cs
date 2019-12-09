@@ -54,8 +54,6 @@ namespace GoodVision
             }
 			else if (rightAnswer >= 2) 
 			{
-
-               
                     rightAnswer = 0;
                     left = NewLetter.ObjectRow;
                 if (left <= 9)
@@ -131,6 +129,8 @@ namespace GoodVision
         private void StartButton_Click(object sender, EventArgs e)
         {
             SivtsevTimer.Value = 0;
+            left = 0;
+            right = 12;
             EyeTestPanel.Visible = false;// предупреждение про проверку правого глаза уходит
 
             NewLetter.Set_Letter();
