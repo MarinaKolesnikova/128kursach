@@ -54,25 +54,43 @@ namespace GoodVision
             }
 			else if (rightAnswer >= 2) 
 			{
-                    rightAnswer = 0;
-                    left = NewLetter.ObjectRow;
+                rightAnswer = 0;
+                left = NewLetter.ObjectRow;
+                NewLetter.ObjectRow = (left + right) / 2;
+                if (left == 11) NewLetter.ObjectRow = 12;
+                tests = 0;
+                NewLetter.Set_Letter();
+                NewLetter.CalcSize();
                 if (left <= 9)
                 {
-                    NewLetter.ObjectRow = (left + right) / 2;
-                    tests = 0;
-                    NewLetter.Set_Letter();
-                    NewLetter.CalcSize();
+
                     LetterPictureBox.Size = new System.Drawing.Size((int)NewLetter.Get_size().Item1, (int)NewLetter.Get_size().Item2);
                     this.LetterPictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
                     this.LetterPictureBox.BorderStyle = BorderStyle.None;
-                    Point point = new Point((402 - LetterPictureBox.Width / 2),260 - (LetterPictureBox.Height) / 2);
+                    Point point = new Point((402 - LetterPictureBox.Width / 2), 260 - (LetterPictureBox.Height) / 2);
                     LetterPictureBox.Location = point;
                     LetterPictureBox.Image = NewLetter.ShowImage;
                 }
-                
-			}
 
-			else
+                /*rightAnswer = 0;
+                left = NewLetter.ObjectRow;
+            if (left <= 9)
+            {
+                NewLetter.ObjectRow = (left + right) / 2;
+                tests = 0;
+                NewLetter.Set_Letter();
+                NewLetter.CalcSize();
+                LetterPictureBox.Size = new System.Drawing.Size((int)NewLetter.Get_size().Item1, (int)NewLetter.Get_size().Item2);
+                this.LetterPictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+                this.LetterPictureBox.BorderStyle = BorderStyle.None;
+                Point point = new Point((402 - LetterPictureBox.Width / 2),260 - (LetterPictureBox.Height) / 2);
+                LetterPictureBox.Location = point;
+                LetterPictureBox.Image = NewLetter.ShowImage;
+            }*/
+
+            }
+
+            else
 			{
                
 				right = NewLetter.ObjectRow;
