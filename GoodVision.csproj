@@ -34,11 +34,20 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CircularProgressBar">
-      <HintPath>D:\Downloads\Telegram Desktop\custButtons\rbutton\bin\Debug\CircularProgressBar.dll</HintPath>
+    <Reference Include="ButtonRoundedCorners, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ButtonRoundedCorners.dll</HintPath>
+    </Reference>
+    <Reference Include="CircularProgressBar, Version=2.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\CircularProgressBar.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
+    <Reference Include="rbutton, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\rbutton.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xaml" />
@@ -184,16 +193,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="ButtonRoundedCorners\ButtonRoundedCorners.csproj">
-      <Project>{716c50cf-ad8c-402a-a6fa-a76d27a60068}</Project>
-      <Name>ButtonRoundedCorners</Name>
-    </ProjectReference>
-    <ProjectReference Include="rbutton\rbutton.csproj">
-      <Project>{38A0CE2A-335B-4A34-8B34-603CD42F4A36}</Project>
-      <Name>rbutton</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\desktop-3246124__340.jpg" />
